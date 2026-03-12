@@ -8,7 +8,10 @@ int main()
     char meuchar = 'J';
     float meufloat = 15.20;
 
-    printf("\n", meuinteiro);
+    printf("%d\n", meuinteiro);
+    printf("%lf\n", meudouble);
+    printf("%c\n", meuchar);
+    printf("%f\n", meufloat);
 
     return 0;
 }
