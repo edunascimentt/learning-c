@@ -5,7 +5,7 @@ int main()
 {
     estudo();
     teste();
-    printf("soma %d\n", soma(15, 15));c
+    printf("soma %d\n", soma(15, 15));
 
     return 0;
 }
