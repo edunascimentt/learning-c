@@ -1,14 +1,15 @@
 #include <stdio.h>
 
+// Keeps asking for a number until the user enters 99.
 int main()
 {
-    int numero;
-    while (numero != 99)
-    {
+    int numero = 0;
 
-        printf("Digite o número: ");
+    do
+    {
+        printf("Digite o número (99 para sair): ");
         scanf("%d", &numero);
-    
+
         switch (numero)
         {
         case 1:
@@ -22,4 +23,8 @@ int main()
             break;
         }
     }
+
+    while (numero != 99);
+
+    return 0;
 }
